@@ -24,3 +24,4 @@ hybrid search - sparse + dense
 uprava kontextoveho okna?
 grounding prompt?
 verifikace
+momentalne spusti jen jeden dotaz a pak ukonci konverzaci -> pokracovat v konverzaci a zachovat kontext
