@@ -1,0 +1,26 @@
+PROVEDENE VYLEPSENI:
+
+zmena z pypdf na pymupdf
+	lepsi extrakce (tabulek, ...)
+	pridani metadat (jmeno, strana, ...)
+
+vetsi velikost chunku
+
+
+retriever
+	mmr, vsechny useky nebudou z jednoho mista
+
+reranker
+	BAAI/bge-reranker-base
+	ohodnoti a seradi vysledky z basic retrieveru a poskytne top k
+
+
+
+POTENCIONALNI VYLEPSENI:
+
+vice dokumentu pro lepsi testovani?
+prepis dotazu - vygenerovat nekolik podobnych a vybrat nejlepsi
+hybrid search - sparse + dense
+uprava kontextoveho okna?
+grounding prompt?
+verifikace
